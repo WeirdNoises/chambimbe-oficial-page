@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-top-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 37px;
+}
+
+.navbar-top-left .logo{
+    width: 150px;
+}
+
+.navbar-top-left-texts{
+    margin-left: 25px;
+    color: black;
+    font-family: Rowdies;
+    font-weight: bold;
+    letter-spacing: 12px;
+    line-height: 0.5;
+}
+
+.navbar-top-left-texts p{
+    color: #231E1C;
+    font-family: Rowdies;
+    font-weight: lighter;
+    letter-spacing: normal;
+}
+
+.navbar-top-right {
+    display: flex;
+    gap: 21px;
+    margin-right: 117px;
+}
+
+.navbar-top-right .icon {
+    width: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.navbar-top-right .icon:hover {
+    transform: scale(1.2);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+    height: 121px;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu .icon{
+    width: 97px;
+}
+
+.menu button{
+    border-style: none;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid #56070C;
+    height: 41px;
+    color: #56070C;
+    font-family: Rowdies;
+    font-weight: lighter;
+    font-size: 15px;
+    width: 139px;
+    transition: .2s;
+}
+
+.menu button:hover{
+    background-color: #56070C;
+    color: white;
+    border: 1px solid #ffffff;
+    transform: scale(1.2);
+}

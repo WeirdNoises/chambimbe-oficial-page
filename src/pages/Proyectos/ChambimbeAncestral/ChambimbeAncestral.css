@@ -1,0 +1,42 @@
+.encabezado{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.logo2{
+    margin-top: 30vh;
+    width: 500px;
+}
+
+
+.group23{
+    margin-top: 10vh;
+    width: 1306px;
+    margin-bottom: 10vh;
+
+}
+
+.youtube-container{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+@media (max-width:1366px) {
+    .logo2{
+        margin-top: 5vh;
+        width: 500px;
+    }
+
+    .group23{
+        margin-top: 10vh;
+        width: 1000px;
+        margin-bottom: 10vh;
+    
+    }
+}

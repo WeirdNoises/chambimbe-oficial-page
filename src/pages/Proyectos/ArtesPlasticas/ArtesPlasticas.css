@@ -1,0 +1,91 @@
+.encabezado-artes{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encabezado-artes h1{
+    margin-top: 10vh;
+    color: #56070C;
+    font-family: Rowdies;
+    letter-spacing: 12px;
+    line-height: 0.5;
+    font-size: 64px;
+}
+
+
+.grupo27 {
+    margin-top: 10vh;
+    width: 1306px;
+}
+
+.agradecimientoAlejandra{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction:row;
+}
+
+.alejandra{
+    border-radius: 480px;
+    width: 331px;
+    height: 331px;
+}
+
+.agradecimientoAlejandra2 {
+    margin-left: 10vh;
+    margin-bottom: 10vh;
+    width: 1051px;
+    height: 300px;
+}
+
+.agradecimientoAlejandra2 h2{
+    color: black;
+    font-family: Rowdies;
+    letter-spacing: 12px;
+    line-height: 0.5;
+    font-size: 50px;
+}
+
+.agradecimientoAlejandra2 p{
+    color: #231E1C;
+    font-family: Rowdies;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.iconAleja {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0px;
+}
+
+.iconAleja :hover {
+    transform: scale(1.2);
+}
+
+@media (max-width:1366px) {
+    .grupo27 {
+        margin-top: 10vh;
+        width: 90%;
+    }
+    .agradecimientoAlejandra{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction:row;
+        width: 90%;
+    }
+
+    .encabezado-artes h1{
+        margin-top: 10vh;
+        color: #56070C;
+        font-family: Rowdies;
+        letter-spacing: 12px;
+        line-height: 0.5;
+        font-size: 40px;
+    }
+}

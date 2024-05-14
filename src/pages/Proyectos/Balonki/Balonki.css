@@ -1,0 +1,86 @@
+.encabezado-balonki{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encabezado-balonki h1{
+    margin-top: 10vh;
+    color: #56070C;
+    font-family: Rowdies;
+    letter-spacing: 12px;
+    line-height: 0.5;
+    font-size: 64px;
+}
+
+.encabezado-balonki h2{
+    margin-top: 1vh;
+    color: #56070C;
+    font-family: Rowdies;
+    letter-spacing: 12px;
+    line-height: 0.5;
+    font-size: 30px;
+}
+
+.encabezado-balonki a{
+    margin-top: 10vh;
+    color: #231E1C;
+    font-family: Rowdies;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 138px;
+    margin-right: 138px;
+    text-align: justify;
+    letter-spacing: 3px;
+    width: 1338px;
+    height: 536px;
+}
+.encabezado-balonki img{
+    margin-top: 10vh;
+    width: 1306px;
+    margin-bottom: 10vh;
+}
+
+@media (max-width:1366px) {
+    .encabezado-balonki a{
+        margin-top: 10vh;
+        color: #231E1C;
+        font-family: Rowdies;
+        font-weight: lighter;
+        font-size: 20px;
+        margin-left: 138px;
+        margin-right: 138px;
+        text-align: justify;
+        letter-spacing: 3px;
+        margin-bottom: 20vh;
+        width: 90%;
+        height: 536px;
+    }
+
+    .encabezado-balonki img{
+        margin-top: 10vh;
+        width: 90%;
+        margin-bottom: 10vh;
+    }
+
+    .encabezado-balonki h1{
+        margin-top: 10vh;
+        color: #56070C;
+        font-family: Rowdies;
+        letter-spacing: 12px;
+        line-height: 0.5;
+        font-size: 40px;
+    }
+    
+    .encabezado-balonki h2{
+        margin-top: 1vh;
+        color: #56070C;
+        font-family: Rowdies;
+        letter-spacing: 8px;
+        line-height: 0.5;
+        font-size: 20px;
+    }
+}

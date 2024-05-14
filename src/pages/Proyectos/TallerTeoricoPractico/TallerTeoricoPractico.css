@@ -1,0 +1,50 @@
+.encabezado{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.logo-cultura{
+    margin-top: 70vh;
+    width: 500px;
+}
+
+.group24{
+    margin-top: 10vh;
+    width: 1306px;
+}
+
+
+.group25{
+    margin-top: 10vh;
+    width: 1306px;
+}
+
+.ttp{
+    width: 100%;
+    margin-top: 10vh;
+}
+
+@media (max-width:1366px) {
+    .group24{
+        margin-top: 10vh;
+        width: 1000px;
+    }
+    
+    
+    .group25{
+        margin-top: 10vh;
+        width: 1000px;
+    }
+    
+    .ttp{
+        width: 100%;
+        height: 80%;
+        margin-top: 10vh;
+    }
+}

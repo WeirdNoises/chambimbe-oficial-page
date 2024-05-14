@@ -1,0 +1,54 @@
+.proyectos{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectos-botones{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.proyectos h1{
+    margin-top: 10vh;
+    color: #56070C;
+    font-family: Rowdies;
+    letter-spacing: 12px;
+    line-height: 0.5;
+    font-size: 64px;
+}
+
+.proyectos button{
+    border-style: none;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid #56070C;
+    height: 41px;
+    color: #56070C;
+    font-family: Rowdies;
+    font-weight: lighter;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.proyectos button:hover{
+    background-color: #56070C;
+    color: white;
+    border: 1px solid #ffffff;
+    transform: scale(1.2);
+}
+
+@media (max-width:1366px) {
+    .proyectos h1{
+        margin-top: 10vh;
+        color: #56070C;
+        font-family: Rowdies;
+        letter-spacing: 12px;
+        line-height: 0.5;
+        font-size: 45px;
+    }
+}

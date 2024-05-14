@@ -1,0 +1,77 @@
+.encabezado{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encabezado h1{
+    margin-top: 10vh;
+    color: #56070C;
+    font-family: Rowdies;
+    letter-spacing: 12px;
+    line-height: 0.5;
+    font-size: 64px;
+}
+
+.encabezado a{
+    margin-top: 10vh;
+    color: #231E1C;
+    font-family: Rowdies;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 138px;
+    margin-right: 138px;
+    text-align: justify;
+    letter-spacing: 3px;
+    width: 1338px;
+}
+
+
+.logo-cultura2{
+    margin-top: 90vh;
+    width: 500px;
+}
+
+.group21{
+    margin-top: 10vh;
+    width: 1306px;
+    margin-bottom: 100px;
+}
+
+.youtube-container{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+@media (max-width:1366px) {
+    .encabezado h1{
+        font-size: 40px;
+    }
+
+    .encabezado a{
+        margin-top: 10vh;
+        color: #231E1C;
+        font-family: Rowdies;
+        font-weight: lighter;
+        font-size: 20px;
+        margin-left: 138px;
+        margin-right: 138px;
+        text-align: justify;
+        letter-spacing: 3px;
+        width: 90%;
+    }
+
+    .logo-cultura2{
+        margin-top: 10vh;
+        width: 400px;
+    }
+
+    .group21{
+        margin-top: 2vh;
+        width: 1000px;
+        margin-bottom: 100px;
+    }
+}
